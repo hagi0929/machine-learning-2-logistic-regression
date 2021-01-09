@@ -15,7 +15,7 @@ def sigmoid(x):
 
 
 def loss_func(x, t):
-    delta = 1e-7  # log 무한대 발산 방지
+    delta = 1e-7  # log 무한대 발산 방지.
 
     z = np.dot(x, W) + b
     y = sigmoid(z)
